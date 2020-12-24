@@ -1,0 +1,86 @@
+body{
+     font-family: 'Shanti';font-size: 22px;
+     background-color: black;
+}
+#container{
+    width: 1000px;
+    height: 610px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/calculator/yellow-textured-plain-background-wallpaper-design-use-text-image-yellow-textured-plain-background-wallpaper-137515345.jpg);
+    margin:20px auto;
+}
+#box{
+    width: 320px;
+    height: 500px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top:20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 400px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0,20px;
+    padding: 20px;
+    font-size: 20px;
+    color: #084168;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 45px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.number , .empty{
+    background-color:  #eaedef;
+}
+.operator{
+    background-color: rgb(223, 219, 219);
+}
+.number , .operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+font-size: 30px;
+}
+.operator:focus, .number:focus, .empty{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 25px;
+    background-color: #b93fb9;
+}
+button:nth-child(8){
+    font-size: 25px;
+    background-color: #3f9cb9;
+}
+button:nth-child(12){
+    font-size: 30px;
+    background-color: #3fb986;
+}
+button:nth-child(16){
+    font-size: 25px;
+    background-color: #da596e;
+}
+button:nth-child(20){
+    font-size: 25px;
+    background-color: #26ee14;
+}
